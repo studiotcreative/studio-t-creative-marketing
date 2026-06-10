@@ -1,0 +1,15 @@
+# OS junk
+.DS_Store
+*.log
+
+# Local tooling / editor / Claude state
+.claude/
+
+# Vercel local link (kept out of git; project is linked via dashboard/CLI)
+.vercel
+
+# Node
+node_modules/
+
+# Redundant archive — the deployable site lives in landing-page/
+studio-t-resource-hub.zip

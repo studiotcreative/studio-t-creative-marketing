@@ -1,0 +1,40 @@
+<!-- @dsCard group="Colors" viewport="700x210" name="Tonal Ramps" subtitle="Cream, rose & clay tints from light to deep" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 22px; background: var(--surface-page); font-family: var(--font-sans); }
+  .ramp { display: flex; align-items: center; gap: 0; margin-bottom: 12px; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm); }
+  .ramp:last-child { margin-bottom: 0; }
+  .step { flex: 1; height: 44px; display: flex; align-items: flex-end; padding: 5px 7px; }
+  .step span { font-size: 9.5px; font-weight: 600; }
+  .label { width: 64px; font-size: 11px; font-weight: 600; color: var(--text-muted); flex: none; }
+  .grp { display:flex; align-items:center; gap:10px; }
+</style>
+</head>
+<body>
+  <div class="grp"><div class="label">Cream</div><div class="ramp" style="flex:1">
+    <div class="step" style="background:var(--cream-50)"></div>
+    <div class="step" style="background:var(--cream-100)"></div>
+    <div class="step" style="background:var(--cream-200)"></div>
+    <div class="step" style="background:var(--cream-300)"></div>
+    <div class="step" style="background:var(--warm-100)"></div>
+  </div></div>
+  <div class="grp"><div class="label">Rose</div><div class="ramp" style="flex:1">
+    <div class="step" style="background:var(--blush-100)"></div>
+    <div class="step" style="background:var(--blush-200)"></div>
+    <div class="step" style="background:var(--rose-300)"></div>
+    <div class="step" style="background:var(--rose-400)"><span style="color:#fff">400</span></div>
+    <div class="step" style="background:var(--rose-500)"><span style="color:#fff">500</span></div>
+  </div></div>
+  <div class="grp"><div class="label">Clay</div><div class="ramp" style="flex:1">
+    <div class="step" style="background:var(--clay-500)"><span style="color:#fff">500</span></div>
+    <div class="step" style="background:var(--terracotta-600)"><span style="color:#fff">600</span></div>
+    <div class="step" style="background:var(--terracotta-700)"><span style="color:#fff">700</span></div>
+    <div class="step" style="background:var(--espresso-900)"><span style="color:#fff">900</span></div>
+    <div class="step" style="background:var(--ink)"><span style="color:#fff">ink</span></div>
+  </div></div>
+</body>
+</html>

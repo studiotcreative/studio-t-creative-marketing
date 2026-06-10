@@ -1,0 +1,61 @@
+/* ============================================================
+   Studio T Creative — Spacing, radii, shadows, motion, layout
+   ============================================================ */
+
+:root {
+  /* ---- Spacing scale (4px base) ---- */
+  --space-0:   0;
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:   12px;
+  --space-4:   16px;
+  --space-5:   20px;
+  --space-6:   24px;
+  --space-8:   32px;
+  --space-10:  40px;
+  --space-12:  48px;
+  --space-16:  64px;
+  --space-20:  80px;
+  --space-24:  96px;
+  --space-32:  128px;
+
+  /* ---- Radii ---- (brand leans soft & rounded; capsule CTAs) */
+  --radius-xs:   4px;
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   18px;
+  --radius-xl:   28px;
+  --radius-2xl:  40px;
+  --radius-pill: 999px;
+  --radius-full: 50%;
+
+  /* ---- Border widths ---- */
+  --border-hairline: 1px;
+  --border-thin:     1.5px;
+  --border-thick:    2px;
+
+  /* ---- Shadows (warm-tinted, soft) ---- */
+  --shadow-xs:  0 1px 2px color-mix(in srgb, var(--espresso-900) 8%, transparent);
+  --shadow-sm:  0 2px 6px color-mix(in srgb, var(--espresso-900) 9%, transparent);
+  --shadow-md:  0 8px 22px color-mix(in srgb, var(--espresso-900) 12%, transparent);
+  --shadow-lg:  0 18px 44px color-mix(in srgb, var(--espresso-900) 15%, transparent);
+  --shadow-xl:  0 30px 70px color-mix(in srgb, var(--espresso-900) 18%, transparent);
+  --shadow-brand: 0 14px 34px color-mix(in srgb, var(--terracotta-600) 26%, transparent);
+  --shadow-inset: inset 0 1px 0 color-mix(in srgb, #fff 50%, transparent);
+
+  /* ---- Motion ---- (gentle, editorial — no bounce) */
+  --ease-out:    cubic-bezier(0.22, 0.61, 0.36, 1);  /* @kind other */
+  --ease-in-out: cubic-bezier(0.45, 0.05, 0.25, 1);  /* @kind other */
+  --duration-fast:   140ms;  /* @kind other */
+  --duration-base:   220ms;  /* @kind other */
+  --duration-slow:   400ms;  /* @kind other */
+  --transition-base: all var(--duration-base) var(--ease-out);
+
+  /* ---- Layout ---- */
+  --container-sm:  640px;
+  --container-md:  860px;
+  --container-lg:  1120px;
+  --container-xl:  1280px;
+  --gutter:        clamp(20px, 5vw, 64px);   /* @kind spacing */
+  --section-y:     clamp(64px, 9vw, 128px);  /* @kind spacing */
+}

@@ -1,0 +1,28 @@
+<!-- @dsCard group="Brand" viewport="700x240" name="Logo" subtitle="Wordmark & circular monogram" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 0; background: var(--surface-page); font-family: var(--font-sans); display: flex; }
+  .pane { flex: 1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap: 12px; padding: 24px; }
+  .pane.cream { background: var(--cream-100); }
+  .pane.ink { background: var(--espresso-900); }
+  img.word { width: 230px; height: auto; border-radius: var(--radius-md); }
+  img.mono { width: 110px; height: auto; }
+  .cap { font-size: 11px; color: var(--text-muted); letter-spacing: 0.04em; }
+  .pane.ink .cap { color: var(--cream-200); }
+</style>
+</head>
+<body>
+  <div class="pane cream">
+    <img class="word" src="../assets/logo-wordmark.png" alt="Studio T Creative wordmark">
+    <div class="cap">Primary wordmark</div>
+  </div>
+  <div class="pane ink">
+    <img class="mono" src="../assets/logo-monogram.png" alt="Studio T monogram">
+    <div class="cap">Circular monogram</div>
+  </div>
+</body>
+</html>

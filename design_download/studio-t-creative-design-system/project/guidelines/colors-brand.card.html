@@ -1,0 +1,24 @@
+<!-- @dsCard group="Colors" viewport="700x200" name="Brand Colors" subtitle="The three core hues from the Brand Guide" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 22px; background: var(--surface-page); }
+  .row { display: flex; gap: 14px; }
+  .sw { flex: 1; }
+  .chip { height: 92px; border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); border: 1px solid var(--hairline); }
+  .name { font-family: var(--font-sans); font-weight: 600; font-size: 13px; color: var(--text-strong); margin-top: 10px; }
+  .hex { font-family: var(--font-sans); font-size: 12px; color: var(--text-muted); letter-spacing: 0.02em; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw"><div class="chip" style="background: var(--cream-100)"></div><div class="name">Cream / Paper</div><div class="hex">#FBF6EE · --cream-100</div></div>
+    <div class="sw"><div class="chip" style="background: var(--rose-400)"></div><div class="name">Dusty Rose</div><div class="hex">#C39483 · --rose-400</div></div>
+    <div class="sw"><div class="chip" style="background: var(--terracotta-600)"></div><div class="name">Terracotta</div><div class="hex">#87472D · --terracotta-600</div></div>
+    <div class="sw"><div class="chip" style="background: var(--ink)"></div><div class="name">Espresso Ink</div><div class="hex">#261C15 · --ink</div></div>
+  </div>
+</body>
+</html>

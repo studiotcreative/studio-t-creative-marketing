@@ -1,0 +1,69 @@
+/* ============================================================
+   Studio T Creative — Typography tokens
+   Display: Cormorant Garamond (Gazpacho substitute) — editorial, high-contrast serif
+   Body/UI: Montserrat — clean geometric sans
+   Accent : Sacramento — signature script (use sparingly, decorative only)
+   ============================================================ */
+
+:root {
+  /* ---- Families ---- */
+  --font-display: 'Gazpacho', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans:    'Montserrat', -apple-system, 'Segoe UI', system-ui, sans-serif;
+  --font-script:  'Sacramento', 'Gazpacho', cursive;
+  --font-body:    var(--font-sans);
+
+  /* ---- Type scale (fluid-ready px values) ---- */
+  --text-2xs:  11px;
+  --text-xs:   12px;
+  --text-sm:   14px;
+  --text-base: 16px;
+  --text-md:   18px;
+  --text-lg:   21px;
+  --text-xl:   26px;
+  --text-2xl:  33px;
+  --text-3xl:  42px;
+  --text-4xl:  54px;
+  --text-5xl:  68px;
+  --text-6xl:  88px;
+
+  /* ---- Weights ---- */
+  --weight-light:    300;
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+
+  /* ---- Line heights ---- */
+  --leading-tight:   1.08;
+  --leading-snug:    1.22;
+  --leading-normal:  1.5;
+  --leading-relaxed: 1.7;
+
+  /* ---- Letter spacing ---- */
+  --tracking-tight:  -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide:   0.04em;
+  --tracking-wider:  0.12em;   /* all-caps sans eyebrows / labels */
+  --tracking-widest: 0.22em;
+
+  /* =========================================================
+     Semantic roles
+     ========================================================= */
+  --display-family:  var(--font-display);
+  --display-weight:  var(--weight-medium);
+  --display-leading: var(--leading-tight);
+
+  --heading-family:  var(--font-display);
+  --heading-weight:  var(--weight-semibold);
+
+  --eyebrow-family:  var(--font-sans);
+  --eyebrow-weight:  var(--weight-semibold);
+  --eyebrow-tracking: var(--tracking-wider);
+
+  --body-family:  var(--font-sans);
+  --body-weight:  var(--weight-regular);
+  --body-leading: var(--leading-relaxed);
+
+  --label-family: var(--font-sans);
+  --label-weight: var(--weight-semibold);
+}

@@ -1,0 +1,85 @@
+/* ============================================================
+   Studio T Creative — Color tokens
+   Warm, editorial palette drawn from the Brand Guide:
+   cream paper · dusty rose (mauve) · terracotta clay · espresso ink
+   ============================================================ */
+
+:root {
+  /* ---- Base ramp : Cream / paper ---- */
+  --cream-50:  #FDFBF7;
+  --cream-100: #FBF6EE;   /* brand paper — primary canvas */
+  --cream-200: #F5ECE0;
+  --cream-300: #EFE2D3;
+
+  /* ---- Base ramp : Blush / rose (the brand mauve) ---- */
+  --blush-100: #F0E1D9;
+  --blush-200: #E4CCC0;
+  --rose-300:  #D5A996;
+  --rose-400:  #C39483;   /* BRAND mauve — from Brand Guide swatch */
+  --rose-500:  #AE7B68;
+
+  /* ---- Base ramp : Clay / terracotta ---- */
+  --clay-500:  #9E5E3F;
+  --terracotta-600: #87472D;  /* BRAND terracotta — Brand Guide swatch */
+  --terracotta-700: #6F3A24;
+
+  /* ---- Base ramp : Espresso / ink ---- */
+  --espresso-800: #4A2E20;
+  --espresso-900: #321F16;
+  --ink:          #261C15;   /* near-black warm ink (headlines on cream) */
+
+  /* ---- Warm neutrals (text + borders) ---- */
+  --warm-700: #4F4137;
+  --warm-500: #7D6B5E;
+  --warm-400: #9C8979;
+  --warm-200: #E7DBCE;
+  --warm-100: #F1E8DC;
+
+  /* ---- Functional / status (kept warm & muted) ---- */
+  --success: #5C7A52;
+  --warning: #C68A3E;
+  --error:   #B24A3A;
+  --info:    #6E7F8C;
+
+  /* =========================================================
+     Semantic aliases — use THESE in components & layouts
+     ========================================================= */
+
+  /* Surfaces */
+  --surface-page:    var(--cream-100);
+  --surface-card:    #FFFFFF;
+  --surface-sunken:  var(--cream-200);
+  --surface-muted:   var(--cream-50);
+  --surface-blush:   var(--blush-100);
+  --surface-brand:   var(--rose-400);
+  --surface-inverse: var(--espresso-900);
+  --surface-accent:  var(--terracotta-600);
+
+  /* Text */
+  --text-strong:    var(--ink);
+  --text-body:      var(--warm-700);
+  --text-muted:     var(--warm-500);
+  --text-subtle:    var(--warm-400);
+  --text-on-brand:  var(--cream-50);
+  --text-on-accent: var(--cream-50);
+  --text-inverse:   var(--cream-100);
+  --text-accent:    var(--terracotta-600);
+
+  /* Borders & lines */
+  --border-subtle:  var(--warm-200);
+  --border-default: var(--warm-200);
+  --border-strong:  var(--rose-300);
+  --border-accent:  var(--terracotta-600);
+  --hairline:       color-mix(in srgb, var(--ink) 12%, transparent);
+
+  /* Interaction */
+  --brand:           var(--rose-400);
+  --brand-hover:     var(--rose-500);
+  --brand-pressed:   var(--terracotta-700);
+  --accent:          var(--terracotta-600);
+  --accent-hover:    var(--terracotta-700);
+  --focus-ring:      color-mix(in srgb, var(--terracotta-600) 45%, transparent);
+
+  /* Overlay / scrim */
+  --scrim:           color-mix(in srgb, var(--espresso-900) 55%, transparent);
+}
