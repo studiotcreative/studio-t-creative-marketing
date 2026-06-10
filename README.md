@@ -12,12 +12,13 @@ and campaign briefs.
 | `design_download/` | Design system handoff (tokens, components, UI kits). Not deployed. |
 | `landing-page-brief.md` | Running context for the landing page. |
 | `CLAUDE.md` | Operating instructions for the marketing operator. |
-| `vercel.json` | Whole-repo deploy config — rewrites serve `landing-page/index.html` at the root. |
 
 ## Deploy
 
 The repo is connected to Vercel (project **`landing-page`**, team **Studio T's projects**)
-with GitHub auto-deploy:
+with GitHub auto-deploy. The Vercel project's **Root Directory is set to `landing-page`**,
+so the site is served straight from that folder (no rewrites). Everything outside
+`landing-page/` (design system, briefs) lives in the repo but is not deployed.
 
 - **Push to `main`** → production deploy.
 - **Open a pull request / push any branch** → automatic preview deployment with its own URL.

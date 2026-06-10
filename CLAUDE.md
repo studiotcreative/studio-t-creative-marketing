@@ -54,12 +54,13 @@ The full brand bible is `design_download/studio-t-creative-design-system/project
   - **Email capture: Kit (ConvertKit)** wired in `resource-hub.js` `submitLead()` via the browser-safe public form endpoint. Set `KIT_FORM_ID` to go live — currently a placeholder, so leads only log to console. Optional Kit custom fields `goal` + `guide`.
   - **Welcome email** drafted in `kit-welcome-email.md` (fill DOWNLOAD/PROPOSAL/name placeholders).
 - **`landing-page-brief.md`** — running context file for the landing page. Keep it current.
-- **`design_download/`** — the design system handoff. Not deployed (in `.vercelignore`).
+- **`design_download/`** — the design system handoff. Lives in the repo but is not deployed (outside the Vercel Root Directory).
 
 ## Stack & deploy
 - Static site, no build step. Local preview: `cd landing-page && python3 -m http.server 4178`.
-- **Redeploy after edits:** `cd landing-page && npx vercel deploy --prod --yes` (already authenticated; deploys that folder with index.html at root).
-- Root `vercel.json` + `.vercelignore` exist for a whole-repo deploy alternative (keeps the design bundle + briefs private).
+- **Auto-deploy (primary):** repo `studiotcreative/studio-t-creative-marketing` is connected to the Vercel `landing-page` project (team `studio-ts-projects`). Push to `main` → production deploy; any branch/PR → protected preview link (visible only when logged into the Vercel team). Vercel **Root Directory = `landing-page`** — serves `index.html` at root, no rewrites.
+- **Gotcha:** the commit author email must be tied to the GitHub account or Vercel blocks the git deploy ("No GitHub account was found matching the commit author email address"). Global git identity is set to the `studiotcreative` no-reply email for this reason — do not change it to a brand address.
+- **Manual redeploy (fallback):** `cd landing-page && npx vercel deploy --prod --yes --scope studio-ts-projects`.
 
 ## Audience, voice, offer
 Canonical brand voice/positioning now lives in the design system readme (see Brand facts above). The original pointers still apply if these files get created:
