@@ -12,6 +12,9 @@ guide by using the `guide` custom field captured on the form.
    `https://YOUR-DOMAIN.com/resources/turning-followers-into-paying-clients.pdf`
    — or, to serve the exact guide they chose, link to `[DOWNLOAD LINK]` and use a
    per-guide automation. (Simplest start: one form per guide, one incentive email each.)
+   - **For the On-Brand AI Content Kit** (skill + prompt + guide), the button links to
+     the delivery **page**, not a single PDF: `https://YOUR-DOMAIN.com/content-kit.html`.
+     All three deliverables live there; the page works without the `?name=` parameter too.
 4. Send yourself a test before publishing.
 
 ---
@@ -54,7 +57,8 @@ hello@studiot-creative.com
 ---
 
 ## Placeholders to fill before sending
-- `DOWNLOAD LINK` — the live PDF URL (after you deploy), or a Kit-hosted file
+- `DOWNLOAD LINK` — the live PDF URL (after you deploy), or a Kit-hosted file. For the
+  On-Brand AI Content Kit, use the delivery page instead: `https://YOUR-DOMAIN.com/content-kit.html`
 - `PROPOSAL LINK` — your contact/proposal page (e.g. studiot-creative.com/#contact)
 - `[YOUR NAME]` — who the email comes from
 - Proof figures `[250%] [50+] [500+]` are Studio T's stated numbers from the brand

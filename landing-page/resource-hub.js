@@ -216,5 +216,25 @@ heroForm.addEventListener('submit', async (e) => {
   document.getElementById('hdr-badge').style.display = 'inline-flex';
 });
 
+/* ---- AI Content Kit form → capture lead → redirect to delivery page ----
+   Deliberately separate from the modal flow: this form has no `data-guide`
+   attribute, so the global [data-guide] click delegate never fires on it.
+   The redirect is not gated on submitLead() — in console-fallback mode it
+   resolves true immediately, and a real Kit hiccup is swallowed there too,
+   so the visitor always reaches the deliverable. -------------------------- */
+const kitForm = document.getElementById('kit-form');
+if (kitForm) {
+  kitForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const name = kitForm.querySelector('input[name="name"]').value.trim();
+    const email = kitForm.querySelector('input[name="email"]').value.trim();
+    if (!email) return;
+    await submitLead({ name, email, goal: 'AI Content', guide: 'On-Brand AI Content Kit' });
+    const first = (name.split(' ')[0] || '').trim();
+    const qs = first ? `?name=${encodeURIComponent(first)}` : '';
+    window.location.href = `content-kit.html${qs}`;
+  });
+}
+
 /* ---- init ---- */
 renderLibrary();

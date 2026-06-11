@@ -19,3 +19,13 @@ Add the PDF below, then flip that guide's `ready: false → true` in `resource-h
 
 While a guide is "coming soon," the lead modal still captures the email and tells
 the visitor it'll be sent when ready.
+
+## Lead magnet (not a library guide)
+| Asset | File |
+|---|---|
+| On-Brand AI Content Kit — Claude skill | `on-brand-ai-content-kit.SKILL.md` ✅ |
+
+Served as a download from `../content-kit.html` (the kit's dedicated delivery page),
+not from the library grid. The `kit-form` on `index.html` captures the lead, then
+redirects to that page. This file is plain-text Markdown; the download attribute
+saves it as `SKILL.md`.
