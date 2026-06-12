@@ -106,7 +106,7 @@ function renderLibrary() {
        body: JSON.stringify({ name: lead.name, email: lead.email,
          goal: lead.goal, guide: lead.guide }) });
 -------------------------------------------------------------------------- */
-const KIT_FORM_ID = 'YOUR_FORM_ID'; // ← paste your Kit form ID here (e.g. '1234567')
+const KIT_FORM_ID = '9547215'; // ← Studio T Resource Hub form (kit.com)
 
 async function submitLead(lead) {
   // Not configured yet → log to console so preview still works.
