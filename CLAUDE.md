@@ -53,6 +53,8 @@ The full brand bible is `design_download/studio-t-creative-design-system/project
   - 3 real downloads (`resources/`): turning-followers-into-paying-clients.pdf, 30-day-content-strategy-guide.pdf, brand-guide-sample.pdf. 2 placeholders marked "Coming soon" (`ready:false` in resource-hub.js).
   - **Email capture: Kit (ConvertKit)** wired in `resource-hub.js` `submitLead()` via the browser-safe public form endpoint. Set `KIT_FORM_ID` to go live — currently a placeholder, so leads only log to console. Optional Kit custom fields `goal` + `guide`.
   - **Welcome email** drafted in `kit-welcome-email.md` (fill DOWNLOAD/PROPOSAL/name placeholders).
+- **`landing-page/diagnostic/`** — "What's Your Social Media Style?" free-tool diagnostic (built with the free-tool-builder skill). **LIVE:** https://landing-page-black-ten-44.vercel.app/diagnostic — for SMB owners running their own social. 5 lateral ungameable archetypes + A–F coherence grade + vanity-metric drift gate. Pure scoring module (`js/scoring.js`, 10 TDD tests), UI inherits site tokens, tiered opt-in funnel under a verbatim consent block. See `diagnostic/SPEC.md`.
+  - **Storage NOT live yet:** `js/app.js` has placeholder `SUPABASE_URL`/`SUPABASE_ANON_KEY` (+ `KIT_FORM_ID`, `CALL_URL`) → leads only log to console until set. SQL in `diagnostic/supabase/migration.sql` is **prepared, not applied** (3 anon-INSERT-only tables). Open: which Supabase project (existing "Studio T Calendar App" is INACTIVE) + booking link.
 - **`landing-page-brief.md`** — running context file for the landing page. Keep it current.
 - **`design_download/`** — the design system handoff. Lives in the repo but is not deployed (outside the Vercel Root Directory).
 
