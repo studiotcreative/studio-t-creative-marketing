@@ -77,7 +77,11 @@ Anon-INSERT-only, split so every endpoint is a pure INSERT (no UPDATE policy):
 - Insert direct from browser (static site, no serverless) using the publishable anon key +
   insert-only RLS — consistent with the existing Kit browser-capture pattern.
 
-## Open questions (resolve before voice review / launch)
-- Real Supabase project: reuse "Studio T Calendar App" (currently INACTIVE) or new project?
-- Strategy-call booking URL (Calendly/etc.) for the primary opt-in payoff. [PLACEHOLDER]
-- Kit form ID + any custom fields for `archetype` / `grade`.
+## Resolved (2026-06-24)
+- Supabase: new project `studio-t-marketing-tools` (ref `lalrfkwrldlxvdedvplg`). Migration applied, smoke-tested.
+- Kit: shared Resource Hub form `9547215`. (Custom fields `archetype`/`grade` must exist in Kit or are dropped.)
+- Call link: `studiot-creative.com/#contact` (owner confirmed correct).
+
+## Open / nice-to-have
+- Link the diagnostic from the Resource Hub (`index.html`) so it gets traffic.
+- Optional: a Calendly-style booking link instead of the contact anchor.

@@ -7,11 +7,16 @@
    ============================================================ */
 import { scoreTool } from './scoring.js';
 
-/* ---- Config (placeholders → graceful console fallback, like resource-hub.js) ---- */
-const SUPABASE_URL = 'YOUR_SUPABASE_URL';        // e.g. https://xxxx.supabase.co
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
-const KIT_FORM_ID = 'YOUR_FORM_ID';
-const CALL_URL = 'https://www.studiot-creative.com/#contact'; // [PLACEHOLDER] strategy-call booking link
+/* ---- Config ----------------------------------------------------------------
+   Supabase URL + anon key are publishable by design (the data is protected by
+   insert-only RLS, not by hiding the key). Kit form is the shared Resource Hub
+   form. If any value is reset to a placeholder, that channel falls back to a
+   console log so preview keeps working.
+-------------------------------------------------------------------------- */
+const SUPABASE_URL = 'https://lalrfkwrldlxvdedvplg.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxhbHJma3dybGRseHZkZWR2cGxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIyODM2ODksImV4cCI6MjA5Nzg1OTY4OX0.YkJS54hzsfyibP76oj8onw8T1LFRa6fXA7-xv7TV3_E';
+const KIT_FORM_ID = '9547215'; // shared Studio T Resource Hub form
+const CALL_URL = 'https://www.studiot-creative.com/#contact'; // strategy-call / contact link
 
 const supabaseReady = SUPABASE_URL.startsWith('http') && !SUPABASE_ANON_KEY.startsWith('YOUR_');
 const kitReady = KIT_FORM_ID && KIT_FORM_ID !== 'YOUR_FORM_ID';
