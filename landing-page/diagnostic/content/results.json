@@ -1,0 +1,79 @@
+{
+  "_review": "Voice redline applied (Studio T brand voice: confident, calm, strategic; benefit-then-mechanism; closed em-dashes; no hype). Audience: SMB owners currently running their own social media.",
+  "gradeLabel": {
+    "A": "Clear and consistent",
+    "B": "Strong, with one tell",
+    "C": "Mixed signals",
+    "D": "Scattered",
+    "F": "No system yet"
+  },
+  "tiers": {
+    "storyteller": {
+      "name": "The Storyteller",
+      "tagline": "You don't just post—you tell a story people want the next part of.",
+      "shell": "You lead with story. The strongest thing on your feed isn't any single post—it's the thread running through all of them. People follow you the way they follow a series: they want to see what happens next. That kind of attention is patient, loyal, and almost impossible for a competitor to copy.",
+      "whatsNext": [
+        "Try this: plan your next month as one storyline, not a pile of separate posts.",
+        "Read: Turning Followers Into Paying Clients, free in our Resource Hub.",
+        "Watch for: a great story with no clear next step—narrative that never points to your offer leaves money on the table."
+      ]
+    },
+    "educator": {
+      "name": "The Go-To Expert",
+      "tagline": "You win by being the most useful account your customer follows.",
+      "shell": "You lead with teaching. You earn attention by being genuinely helpful, and that compounds—saved posts, shares, and a reputation as the one who actually knows. Trust like that is slow to build and hard to fake, which is exactly why it's worth the effort.",
+      "whatsNext": [
+        "Try this: turn your most-asked customer question into a short, repeatable series.",
+        "Read: The 30-Day Content Strategy Guide, free in our Resource Hub.",
+        "Watch for: teaching that never makes an ask—being trusted only pays off when it leads somewhere."
+      ]
+    },
+    "connector": {
+      "name": "The Community Builder",
+      "tagline": "Your followers don't just watch you—they talk back.",
+      "shell": "You lead with relationship. You treat your audience like people, not a number, and they reward you with the one thing money can't buy: regulars who defend you and send you customers. It's the most durable advantage a small business can have on social, and the hardest for anyone to copy.",
+      "whatsNext": [
+        "Try this: name the 20 followers who matter most and show up for them by name.",
+        "Read: Turning Followers Into Paying Clients, free in our Resource Hub.",
+        "Watch for: warmth with no direction—a loved account that never converts is still just a hobby."
+      ]
+    },
+    "amplifier": {
+      "name": "The Trendspotter",
+      "tagline": "You know how to get seen—reach is your strength.",
+      "shell": "You lead with reach. You understand attention as a skill: timing, format, and momentum. Played well, you put your business in front of new people faster than anyone moving slowly. The whole game is what happens to those new eyes once they arrive.",
+      "whatsNext": [
+        "Try this: pair every reach play with one next step—a follow, a freebie, a reason to stay.",
+        "Read: Turning Followers Into Paying Clients, free in our Resource Hub.",
+        "Watch for: reach that never converts—see the note above; it's the trap your style is most prone to."
+      ]
+    },
+    "closer": {
+      "name": "The Closer",
+      "tagline": "Your posts have a job, and the job is customers.",
+      "shell": "You lead with results. Every post earns its place by moving someone closer to buying, and you can usually trace the line from a post to a sale. That's the most accountable way to run social—the discipline most business owners never reach.",
+      "whatsNext": [
+        "Try this: keep a small share of your posts for reach and trust, so the pipeline never runs dry.",
+        "Read: The 30-Day Content Strategy Guide, free in our Resource Hub.",
+        "Watch for: all-offer, no-warmth content—selling to people you never built trust with burns out fast."
+      ]
+    }
+  },
+  "gradeDelta": {
+    "A": "And you run it on purpose. Across what you post, how often, your voice, where you show up, and how you measure it, you're playing one consistent game. That consistency is the line between having a style and having a system—and it's why your content can compound instead of resetting every week.",
+    "B": "Your pattern is strong, with one tell. Most of your approach points one way, with a spot or two pulling in another direction. That's not a flaw—it's the exact seam where one small adjustment makes the whole thing click.",
+    "C": "Your pattern is mixed. There's a lean here, but it's competing with other instincts across how you post. The opportunity is simple: decide which style you're actually building, then let the rest serve it.",
+    "D": "Your pattern is scattered. Different parts of your posting pull in different directions, which usually means content is happening reactively instead of from a decision. The good news: that's the most fixable place to start.",
+    "F": "There isn't a system yet—just posts. That's not a judgment, it's a starting line. Pick one style to build first, and everything after it gets easier."
+  },
+  "caveats": {
+    "strong": {
+      "label": "One thing worth naming",
+      "body": "Your answers point to a real risk for a reach-led account: treating the number that's easiest to grow—likes and followers—as the goal itself. It's the most common way good content quietly stops paying off. Reach is a means; the win is what those new people do next. Worth a deliberate look before you pour more time into it."
+    },
+    "soft": {
+      "label": "A small note",
+      "body": "One of your answers leaned on surface numbers as the scoreboard. Not a problem at your size—just keep an eye on it, because vanity metrics are the easiest thing to grow and the easiest to mistake for progress."
+    }
+  }
+}

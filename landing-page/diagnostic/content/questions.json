@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "title": "What's Your Social Media Style?",
+    "subtitle": "You run your own business's social media. This reads how you actually show up—and where it's quietly costing you growth.",
+    "note": "There are no wrong answers. Every option is a real, legitimate way to run your own social. Answer honestly—the result reads your pattern, not your best guess at the right choice.",
+    "tiers": ["storyteller", "educator", "connector", "amplifier", "closer"]
+  },
+  "questions": [
+    {
+      "id": "q1", "dimension": "strategy", "type": "scoring",
+      "prompt": "When you sit down to post for your business, where does the idea usually come from?",
+      "options": [
+        { "tier": "storyteller", "label": "The story I'm telling about my business right now—the next piece of it." },
+        { "tier": "educator", "label": "A question my customers keep asking me." },
+        { "tier": "connector", "label": "Something my followers are talking about or going through." },
+        { "tier": "amplifier", "label": "A trend or format that's taking off this week." },
+        { "tier": "closer", "label": "Whatever I need to sell or book this month." }
+      ]
+    },
+    {
+      "id": "q2", "dimension": "strategy", "type": "scoring",
+      "prompt": "Your posting plan, honestly, looks like…",
+      "options": [
+        { "tier": "storyteller", "label": "A loose storyline—I know the chapters I want to share over time." },
+        { "tier": "educator", "label": "A list of topics I know my audience needs help with." },
+        { "tier": "connector", "label": "Whatever feels right in the moment for my community." },
+        { "tier": "amplifier", "label": "Mostly open—I fill it with whatever's trending when I sit down." },
+        { "tier": "closer", "label": "Built around my promotions, launches, and offers." }
+      ]
+    },
+    {
+      "id": "q3", "dimension": "cadence", "type": "scoring",
+      "prompt": "What actually gets you to post consistently?",
+      "options": [
+        { "tier": "storyteller", "label": "I don't want to drop the story I've already started telling." },
+        { "tier": "educator", "label": "I batch and reuse templates, so posting is a system, not a scramble." },
+        { "tier": "connector", "label": "The people who expect to hear from me keep me showing up." },
+        { "tier": "amplifier", "label": "Staying active is how I keep the algorithm on my side." },
+        { "tier": "closer", "label": "There's always something to sell, so there's always a reason to post." }
+      ]
+    },
+    {
+      "id": "q4", "dimension": "cadence", "type": "scoring",
+      "prompt": "It's a crazy week. What's the first thing to slip?",
+      "options": [
+        { "tier": "storyteller", "label": "The extras—but I keep the posts that move my story forward." },
+        { "tier": "educator", "label": "Nothing new—I just re-share an older tip that still helps." },
+        { "tier": "connector", "label": "I drop to quick stories and replies, just to stay present." },
+        { "tier": "amplifier", "label": "I throw up a fast trend post to keep the streak alive." },
+        { "tier": "closer", "label": "I protect whatever post is tied to money this week." }
+      ]
+    },
+    {
+      "id": "q5", "dimension": "voice", "type": "scoring",
+      "prompt": "What makes your account recognizably yours?",
+      "options": [
+        { "tier": "storyteller", "label": "My voice and my story—you'd know it's me with the name covered." },
+        { "tier": "educator", "label": "I actually know my stuff, and it shows in what I share." },
+        { "tier": "connector", "label": "It feels like a real person, not a faceless business account." },
+        { "tier": "amplifier", "label": "I put my own spin on trends and make them look good." },
+        { "tier": "closer", "label": "It's clear—people always know what I offer and how to get it." }
+      ]
+    },
+    {
+      "id": "q6", "dimension": "voice", "type": "scoring",
+      "prompt": "Another business in your niche copies your style. What can't they take?",
+      "options": [
+        { "tier": "storyteller", "label": "My story—it's mine to tell." },
+        { "tier": "educator", "label": "The real experience behind what I share." },
+        { "tier": "connector", "label": "The relationship I've built with my followers." },
+        { "tier": "amplifier", "label": "My speed—I'll already be onto the next trend." },
+        { "tier": "closer", "label": "My offer and my results—that's what sells, not the look." }
+      ]
+    },
+    {
+      "id": "q7", "dimension": "distribution", "type": "scoring",
+      "prompt": "How do new people usually find your business on social?",
+      "options": [
+        { "tier": "storyteller", "label": "Someone shares my story because it hit home for them." },
+        { "tier": "educator", "label": "A helpful post gets saved and sent to a friend." },
+        { "tier": "connector", "label": "Word of mouth from followers who feel like regulars." },
+        { "tier": "amplifier", "label": "A reel or trend post took off and reached new people." },
+        { "tier": "closer", "label": "I put content in front of people who are ready to buy." }
+      ]
+    },
+    {
+      "id": "q8", "dimension": "distribution", "type": "scoring",
+      "prompt": "Which feels most like your platform game plan?",
+      "options": [
+        { "tier": "storyteller", "label": "Go deep on the one or two platforms where my story lands." },
+        { "tier": "educator", "label": "Wherever my audience is learning—I adapt the tip to fit." },
+        { "tier": "connector", "label": "Wherever the conversation is, so I can jump in." },
+        { "tier": "amplifier", "label": "Wherever I can get the most reach right now." },
+        { "tier": "closer", "label": "Wherever my actual buyers spend their time." }
+      ]
+    },
+    {
+      "id": "q9", "dimension": "conversion", "type": "scoring",
+      "prompt": "How do you know your posting is actually working?",
+      "options": [
+        { "tier": "storyteller", "label": "People message me saying my story stuck with them." },
+        { "tier": "educator", "label": "Saves, shares, and 'this helped me so much' replies." },
+        { "tier": "connector", "label": "More DMs, more comments, more regulars showing up." },
+        { "tier": "amplifier", "label": "My reach and follower count are climbing." },
+        { "tier": "closer", "label": "I can point to leads, bookings, or sales it brought in." }
+      ]
+    },
+    {
+      "id": "q10", "dimension": "conversion", "type": "scoring",
+      "prompt": "A friend asks, \"is social media even worth it for your business?\" What do you point to?",
+      "options": [
+        { "tier": "storyteller", "label": "People remember my business when it counts." },
+        { "tier": "educator", "label": "I'm becoming the name people trust in my niche." },
+        { "tier": "connector", "label": "I've built a small community that has my back." },
+        { "tier": "amplifier", "label": "How many new people I'm reaching every month." },
+        { "tier": "closer", "label": "The customers and revenue I can trace back to it." }
+      ]
+    },
+    {
+      "id": "gate", "dimension": "_gate", "type": "gate",
+      "prompt": "One post blows up—10x your usual likes. But nothing else changes: no new messages, no saves, no sales. How do you take it?",
+      "options": [
+        { "value": "signal", "label": "A nice spike—but only useful if I can turn those new eyes into something real." },
+        { "value": "signal", "label": "Good for getting seen. I note it and keep my real goals in mind." },
+        { "value": "drift", "label": "A win is a win—the like count is the number that matters most." },
+        { "value": "signal", "label": "Probably just the algorithm. I won't change my whole approach over one post." }
+      ]
+    }
+  ]
+}
